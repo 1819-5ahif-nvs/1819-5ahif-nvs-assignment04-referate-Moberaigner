@@ -6,7 +6,7 @@ Download MQTT.fx: https://mqttfx.jensd.de/index.php/download
 
 # MQTT (Message Queue Telemetry Transport)
 
-MQTT ist ein leichtgewichtiges publish/subscribe - messaging Protokoll, welches vernetzten Geräten eine Möglichkeit bietet, möglichst bandbreiten- und batterieschonend zu kommunizieren. Um dies zu erreichen, baut MQTT auf einem Konzept auf, welches einerseits die Bandbreite minimiert und zusätzlich eine ganantierte Zustellung der Daten ermöglicht. Daher eignet sich das Protokoll gut für IoT (Internet of Things) und M2M (machine-to-machine) Kommunikation im Bereich der vernetzten Geräte. 
+MQTT ist ein leichtgewichtiges publish/subscribe - messaging Protokoll, welches vernetzten Geräten eine Möglichkeit bietet, möglichst bandbreiten- und batterieschonend zu kommunizieren. Um dies zu erreichen, baut MQTT auf einem Konzept auf, welches einerseits die Bandbreite minimiert und zusätzlich eine garantierte Zustellung der Daten ermöglicht. Daher eignet sich das Protokoll gut für IoT (Internet of Things) und M2M (machine-to-machine) Kommunikation im Bereich der vernetzten Geräte. 
 
 ### Publish-Subscribe-Pattern
 
