@@ -37,7 +37,7 @@ Beim Verbindungsaufbau vom Client zum Broker (=Subscribe), teilt dieser dem Brok
 
 Durch diese Lösung ist es möglich, tausende Clients über den Broker zu vernetzen, ohne Ahängigkeiten untereinander zu haben. Der große Vorteil dieses Protokolls im Vergleich zu HTTP ist, dass ein Client automatisch vom Broker benachrichtigt wird, wenn neue Informationen vorhanden sind, und diese nicht extra mittels GET-Requests abfragen muss. Ein tolles Feature des Protokolls ist, dass Nachrichten, die nicht zugestellt werden können (z.B wenn der Broker oder ein Client nicht erreichbar ist), persistiert werden und bei erneuter Verbindung sofort zugestellt werden.
 
-![mqtt](mqtt.png)
+![mqtt](/images/mqtt.png)
 
 
 
@@ -73,7 +73,7 @@ Zwischen Exchange und Queue besteht ein sogenanntes **Binding**, über welches j
 
 - Headers –> Die Zustellung der Nachricht zur Warteschlange erfolgt hier über den Nachrichten-Header.
 
-![amqp](amqp.png)
+![amqp](/images/amqp.png)
 
 AMQP selbst ausprobieren: http://tryrabbitmq.com
 
@@ -106,7 +106,7 @@ Nachrichten können auf zwei Wege empfangen werden: **synchron** und **asynchron
 
 JMS Architektur:
 
-![JMS](JMS.png)
+![JMS](/images/JMS.png)
 
 
 
